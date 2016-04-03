@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FB587011C95375100EE462F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB587001C95375100EE462F /* main.m */; };
+		8FB587041C95375100EE462F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB587031C95375100EE462F /* AppDelegate.m */; };
+		8FB5870C1C95375100EE462F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FB5870B1C95375100EE462F /* Assets.xcassets */; };
+		8FB5870F1C95375100EE462F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FB5870D1C95375100EE462F /* LaunchScreen.storyboard */; };
+		8FB5871D1C953A3700EE462F /* LYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5871C1C953A3700EE462F /* LYTabBarController.m */; };
+		8FB587201C953B7E00EE462F /* LYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5871F1C953B7E00EE462F /* LYNavigationController.m */; };
+		8FB587281C95406500EE462F /* LYHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB587271C95406500EE462F /* LYHomeController.m */; };
+		8FB5872B1C95408300EE462F /* LYInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5872A1C95408300EE462F /* LYInfoController.m */; };
+		8FB5872E1C95409100EE462F /* LYDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5872D1C95409100EE462F /* LYDataController.m */; };
+		8FB587311C95409C00EE462F /* LYMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB587301C95409C00EE462F /* LYMeController.m */; };
+		8FB587351C9541B600EE462F /* UIView+estension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB587341C9541B600EE462F /* UIView+estension.m */; };
+		8FB587381C9549BB00EE462F /* LYBottomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB587371C9549BB00EE462F /* LYBottomTabBar.m */; };
+		8FB5873B1C9549D800EE462F /* LYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5873A1C9549D800EE462F /* LYButton.m */; };
+		8FB5873E1C95691B00EE462F /* LYBottomCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB5873D1C95691B00EE462F /* LYBottomCenterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FB586FC1C95375100EE462F /* 自定义不规则tabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义不规则tabBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB587001C95375100EE462F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FB587021C95375100EE462F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FB587031C95375100EE462F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FB5870B1C95375100EE462F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FB5870E1C95375100EE462F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FB587101C95375100EE462F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB5871B1C953A3700EE462F /* LYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYTabBarController.h; sourceTree = "<group>"; };
+		8FB5871C1C953A3700EE462F /* LYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYTabBarController.m; sourceTree = "<group>"; };
+		8FB5871E1C953B7E00EE462F /* LYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYNavigationController.h; sourceTree = "<group>"; };
+		8FB5871F1C953B7E00EE462F /* LYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYNavigationController.m; sourceTree = "<group>"; };
+		8FB587261C95406500EE462F /* LYHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHomeController.h; sourceTree = "<group>"; };
+		8FB587271C95406500EE462F /* LYHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHomeController.m; sourceTree = "<group>"; };
+		8FB587291C95408300EE462F /* LYInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYInfoController.h; sourceTree = "<group>"; };
+		8FB5872A1C95408300EE462F /* LYInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYInfoController.m; sourceTree = "<group>"; };
+		8FB5872C1C95409100EE462F /* LYDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYDataController.h; sourceTree = "<group>"; };
+		8FB5872D1C95409100EE462F /* LYDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYDataController.m; sourceTree = "<group>"; };
+		8FB5872F1C95409C00EE462F /* LYMeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYMeController.h; sourceTree = "<group>"; };
+		8FB587301C95409C00EE462F /* LYMeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYMeController.m; sourceTree = "<group>"; };
+		8FB587331C9541B600EE462F /* UIView+estension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+estension.h"; sourceTree = "<group>"; };
+		8FB587341C9541B600EE462F /* UIView+estension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+estension.m"; sourceTree = "<group>"; };
+		8FB587361C9549BB00EE462F /* LYBottomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBottomTabBar.h; sourceTree = "<group>"; };
+		8FB587371C9549BB00EE462F /* LYBottomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBottomTabBar.m; sourceTree = "<group>"; };
+		8FB587391C9549D800EE462F /* LYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYButton.h; sourceTree = "<group>"; };
+		8FB5873A1C9549D800EE462F /* LYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYButton.m; sourceTree = "<group>"; };
+		8FB5873C1C95691B00EE462F /* LYBottomCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYBottomCenterView.h; sourceTree = "<group>"; };
+		8FB5873D1C95691B00EE462F /* LYBottomCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYBottomCenterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FB586F91C95375100EE462F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FB586F31C95375100EE462F = {
+			isa = PBXGroup;
+			children = (
+				8FB586FE1C95375100EE462F /* 自定义不规则tabBar */,
+				8FB586FD1C95375100EE462F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FB586FD1C95375100EE462F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FB586FC1C95375100EE462F /* 自定义不规则tabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FB586FE1C95375100EE462F /* 自定义不规则tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8FB587211C953FD200EE462F /* Main */,
+				8FB587251C95404100EE462F /* Me */,
+				8FB587241C95401F00EE462F /* Data */,
+				8FB587231C953FF700EE462F /* information */,
+				8FB587221C953FE100EE462F /* Home */,
+				8FB586FF1C95375100EE462F /* Supporting Files */,
+			);
+			path = "自定义不规则tabBar";
+			sourceTree = "<group>";
+		};
+		8FB586FF1C95375100EE462F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FB5870B1C95375100EE462F /* Assets.xcassets */,
+				8FB587101C95375100EE462F /* Info.plist */,
+				8FB587001C95375100EE462F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FB587161C9539BF00EE462F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FB5871B1C953A3700EE462F /* LYTabBarController.h */,
+				8FB5871C1C953A3700EE462F /* LYTabBarController.m */,
+				8FB5871E1C953B7E00EE462F /* LYNavigationController.h */,
+				8FB5871F1C953B7E00EE462F /* LYNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8FB587181C9539E900EE462F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FB587361C9549BB00EE462F /* LYBottomTabBar.h */,
+				8FB587371C9549BB00EE462F /* LYBottomTabBar.m */,
+				8FB587391C9549D800EE462F /* LYButton.h */,
+				8FB5873A1C9549D800EE462F /* LYButton.m */,
+				8FB5873C1C95691B00EE462F /* LYBottomCenterView.h */,
+				8FB5873D1C95691B00EE462F /* LYBottomCenterView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8FB587191C9539F100EE462F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8FB5871A1C953A0300EE462F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8FB587021C95375100EE462F /* AppDelegate.h */,
+				8FB587031C95375100EE462F /* AppDelegate.m */,
+				8FB5870D1C95375100EE462F /* LaunchScreen.storyboard */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		8FB587211C953FD200EE462F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8FB587161C9539BF00EE462F /* Controller */,
+				8FB587321C95418600EE462F /* exsention */,
+				8FB5871A1C953A0300EE462F /* Other */,
+				8FB587191C9539F100EE462F /* Model */,
+				8FB587181C9539E900EE462F /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8FB587221C953FE100EE462F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8FB587261C95406500EE462F /* LYHomeController.h */,
+				8FB587271C95406500EE462F /* LYHomeController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		8FB587231C953FF700EE462F /* information */ = {
+			isa = PBXGroup;
+			children = (
+				8FB587291C95408300EE462F /* LYInfoController.h */,
+				8FB5872A1C95408300EE462F /* LYInfoController.m */,
+			);
+			name = information;
+			sourceTree = "<group>";
+		};
+		8FB587241C95401F00EE462F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8FB5872C1C95409100EE462F /* LYDataController.h */,
+				8FB5872D1C95409100EE462F /* LYDataController.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8FB587251C95404100EE462F /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				8FB5872F1C95409C00EE462F /* LYMeController.h */,
+				8FB587301C95409C00EE462F /* LYMeController.m */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		8FB587321C95418600EE462F /* exsention */ = {
+			isa = PBXGroup;
+			children = (
+				8FB587331C9541B600EE462F /* UIView+estension.h */,
+				8FB587341C9541B600EE462F /* UIView+estension.m */,
+			);
+			name = exsention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FB586FB1C95375100EE462F /* 自定义不规则tabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FB587131C95375100EE462F /* Build configuration list for PBXNativeTarget "自定义不规则tabBar" */;
+			buildPhases = (
+				8FB586F81C95375100EE462F /* Sources */,
+				8FB586F91C95375100EE462F /* Frameworks */,
+				8FB586FA1C95375100EE462F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义不规则tabBar";
+			productName = "自定义不规则tabBar";
+			productReference = 8FB586FC1C95375100EE462F /* 自定义不规则tabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FB586F41C95375100EE462F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = itcast;
+				TargetAttributes = {
+					8FB586FB1C95375100EE462F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 8FB586F71C95375100EE462F /* Build configuration list for PBXProject "自定义不规则tabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FB586F31C95375100EE462F;
+			productRefGroup = 8FB586FD1C95375100EE462F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FB586FB1C95375100EE462F /* 自定义不规则tabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FB586FA1C95375100EE462F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB5870F1C95375100EE462F /* LaunchScreen.storyboard in Resources */,
+				8FB5870C1C95375100EE462F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FB586F81C95375100EE462F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB587201C953B7E00EE462F /* LYNavigationController.m in Sources */,
+				8FB5873E1C95691B00EE462F /* LYBottomCenterView.m in Sources */,
+				8FB587041C95375100EE462F /* AppDelegate.m in Sources */,
+				8FB587281C95406500EE462F /* LYHomeController.m in Sources */,
+				8FB587381C9549BB00EE462F /* LYBottomTabBar.m in Sources */,
+				8FB5871D1C953A3700EE462F /* LYTabBarController.m in Sources */,
+				8FB5872B1C95408300EE462F /* LYInfoController.m in Sources */,
+				8FB5872E1C95409100EE462F /* LYDataController.m in Sources */,
+				8FB587351C9541B600EE462F /* UIView+estension.m in Sources */,
+				8FB5873B1C9549D800EE462F /* LYButton.m in Sources */,
+				8FB587311C95409C00EE462F /* LYMeController.m in Sources */,
+				8FB587011C95375100EE462F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FB5870D1C95375100EE462F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FB5870E1C95375100EE462F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FB587111C95375100EE462F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FB587121C95375100EE462F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FB587141C95375100EE462F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义不规则tabBar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYCustomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FB587151C95375100EE462F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "自定义不规则tabBar/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LYCustomTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FB586F71C95375100EE462F /* Build configuration list for PBXProject "自定义不规则tabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB587111C95375100EE462F /* Debug */,
+				8FB587121C95375100EE462F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FB587131C95375100EE462F /* Build configuration list for PBXNativeTarget "自定义不规则tabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FB587141C95375100EE462F /* Debug */,
+				8FB587151C95375100EE462F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FB586F41C95375100EE462F /* Project object */;
+}
